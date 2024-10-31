@@ -1,0 +1,400 @@
+#wcpd-admin-tab {
+}
+#wcpd-admin-tab .nav-link {
+	color: #16a085;
+	border-radius: 0;
+}
+#wcpd-admin-tab .nav-link.active{
+	color: #6d7989;
+	border-top: 2px solid #18ad90;
+}
+.wcpd_group_product .form-check {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	font-size: 16px;
+	line-height: 100%;
+	margin-right: 15px;
+}
+.wcpd_group_product .form-check .form-check-input:checked {
+	background-color: #d0d6dd1a;
+	border-color: #0d6efd;
+}
+
+th.col-hash,
+th.col-id{
+  width: 4% !important;
+}
+.accordionItem .list-group .list-group-item span {
+	float: right;
+	background: #ddd;
+	color: #333;
+	width: 20px;
+	height: 20px;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.accordionItem span.groupClose {
+	float: right;
+	background: #ddd;
+	color: #c2b2b2;
+	width: 22px;
+	height: 22px;
+	border-radius: 12px;
+	font-size: 22px;
+	padding-bottom: 5px;
+	position: relative;
+	top: 0px;
+	right: -76%;
+	z-index: 9999;
+	display: flex;
+  	visibility: hidden;
+	justify-content: center;
+	align-items: center;
+}
+/* Group Name */
+#groupNameSelect, 
+.discountType, 
+.wcpd_timeZone{
+    padding: 2px 10px !important;
+	font-size: 15px !important;
+}
+#groupNameList{}
+.group_name_item {
+	position: relative;
+}
+.grbDelete_btn {
+	float: right;
+	background: #ddd;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 11px;
+	line-height: 100%;
+	font-weight: bold;
+	color: #333;
+	border-radius: 50%;
+	padding: 5px;
+}
+.grbDelete_btn:hover {
+  background: #cfcdcd;
+  color: #cd3e3e;
+}
+.accordionItem .list-group .list-group-item .close:hover{
+  color: #e95f15;
+  background: #ddd;
+
+}
+.accordionItem:hover span.groupClose{
+  visibility:visible;
+  color: #cd3e3e;
+}
+.variation_items{
+  display: none;
+  margin-top: 5px;
+}
+.variation-text {
+  font-size: 14px !important;
+  text-align: center;
+  margin-right: 30px;
+  background: transparent !important;
+  width: 26% !important;
+  cursor: pointer;
+}
+.group-variation {
+  margin-top: 20px;
+}
+.wcpd_custom_wrapper, 
+.wcpd_license_wrapper {
+	padding: 20px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.wcpd_license_wrapper {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.license_box_area {
+	padding: 45px 30px;
+	background: azure;
+}
+.license_box_area #wcpdLicense {
+	width: 100%;
+	border: none;
+}
+.license_input_wrapper {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background: #fff;
+	border: 1px solid #777;
+	padding: 1px 7px;
+}
+.license_input_wrapper input[type=text]:focus{
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+#wcpd_DeActiveLicense {
+	display: none;
+}
+/* Discount Settings Tap */
+#discountSetting {}
+.subtitle{
+	font-size: 16px;
+	padding-left: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+#discountSetting .accordion-item{}
+#discountSetting .accordion-item span.itemClose {
+	float: right;
+	background: transparent;
+	color: #c2b2b2;
+	width: 22px;
+	height: 22px;
+	border-radius: 12px;
+	font-size: 30px;
+	padding-bottom: 5px;
+	position: relative;
+	top: 0px;
+	right: -76%;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#discountSetting .accordion-button:hover {
+	z-index: 0;
+}
+.wcpd_accordionBtn{
+	position: relative;
+}
+.accordionItemAction {
+	position: absolute;
+	right: 10%;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+	top: 14%;
+}
+.accordionItemAction .itemUpdate, 
+.accordionItemAction .itemDelete {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 3px 10px;
+	border-radius: 3px;
+}
+.settingsTable tr:last-child {
+    border-bottom: 0 solid #fff;
+	padding-top: 10px;
+}
+.settingsTable .form-check {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	font-size: 17px;
+	line-height: 100%;
+	margin-right: 15px;
+}
+.settingsTable .form-check .form-check-input:checked {
+	background-color: #d0d6dd1a;
+	border-color: #0d6efd;
+}
+
+#toplevel_page_wcpd-discount-update .wp-menu-image { display: none; }
+#wcpd_productCategory .form-check {
+	padding-left: 0;
+}
+.wcpd_product_category .form-check input[type="checkbox"] {
+	height: 1.1rem;
+	margin: -.25rem .25rem 0 0;
+	width: 1.1rem;
+	min-width: 1rem;
+}
+.wcpd_product_category .form-check input[type="checkbox"]:checked::before {
+	width: 24px;
+}
+.schedulePicker input[type="text"] {
+	margin-bottom: 15px;
+}
+/* DataTable */
+#wcpd_dataTables_filter input {
+	padding: 2px 5px !important;
+}
+/* Validation Css */
+.err_msg, 
+.err_msg_price {
+	color: rgb(230, 28, 28);
+	display: none;
+	text-transform: initial;
+}
+/*  Custom Alert Box Msg css */
+.wcpd-modal-dialog {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* 100% of the viewport height */
+}
+.wcpd-modal-dialog .modal-content{
+	border-left: 3px solid #ffc107;
+	border-radius: 3px;
+}
+.wcpd-modal-dialog .modal-body {
+	margin-bottom: 30px;
+}
+.wcpd-modal-dialog .alertMsg {
+	font-size: 16px;
+}
+.wcpd-close {}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+	padding-left: 20px !important;
+}
+/* Changing Price  */
+.changeWrapper {
+	display: flex;
+}
+.changeWrapper select {
+	padding: 4px 7px;
+}
+.changeWrapper .changeType {
+	margin-right: 10px;
+}
+.priceChangesModal {
+	position: absolute;
+	right: 5%;
+	top: 33%;
+	font-size: 16px;
+}
+.priceChange_accordion {
+	position: relative;
+}
+.priceChange_accordion span.priceCloseBtn {
+	background: #e7e8e7;
+	color: #c2b2b2;
+	width: 22px;
+	height: 22px;
+	border-radius: 12px;
+	font-size: 22px;
+	padding-bottom: 5px;
+	position: absolute;
+	top: 31%;
+	right: 12%;
+	z-index: 9999;
+	display: flex;
+	visibility: hidden;
+	justify-content: center;
+	align-items: center;
+}
+.priceChange_accordion:hover span.priceCloseBtn{
+	visibility:visible;
+	color: #cd3e3e;
+  }
+
+/* Licensing  */
+.successMsg {
+	color: #198754;
+	display: none;
+	margin-left: 10px;
+}
+.invalidMsg {
+	color: #cd3e3e;
+	display: none;
+	margin-left: 10px;
+}
+/* Restricted CSS */
+.btn_tooltip {
+	background: #16a085;
+	color: #fff;
+	padding: 3px 5px;
+	font-size: 14px;
+	border-radius: 3px;
+	margin-left: 3px;
+	cursor: pointer;
+}
+/* wcpd_paid */
+.wcpd_paid {
+	position: relative;
+	color: #333; 
+	transition: background-color 0.3s; 
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5); 
+	opacity: 0; 
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #16a085;
+	cursor: none; 
+	transition: opacity 0.3s;
+}
+.wcpd_paid:hover .overlay {
+opacity: 1; /* Show the overlay on hover */
+}
+  
+/* wcpd_sku_paid */
+.wcpd_sku_paid {
+	position: relative;
+	color: #333; 
+	transition: background-color 0.3s; 
+}
+.sku_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5); 
+	opacity: 0; 
+	z-index: 9999;
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #1bd7b1;
+	cursor: none; 
+	transition: opacity 0.3s;
+}
+
+.wcpd_sku_paid:hover .sku_overlay {
+opacity: 1; /* Show the overlay on hover */
+}
+/* admin update settings page */
+#toplevel_page_discount-settings-update{
+	display: none !important;
+}
+  
+
+
+/* Admin Dashboard */
+/* #adminmenuwrap {
+	display: none;
+}
+#adminmenuback {
+	display: none;
+} */
+

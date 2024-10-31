@@ -1,0 +1,593 @@
+.wcpdm_title_area {
+	background-image: url('../img/product-discount-banner.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: 100%;
+	object-fit: cover;
+	background-color: #7f54b3;
+	margin-bottom: 50px;
+	padding: 20px 0;
+	max-width: 100%;
+	overflow: hidden;
+	height: 97px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+.wcpdm_title_area h1 {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	color: #fff;
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 30px;
+}
+.wcpdm_title_area img {
+	max-width: 100%;
+	height: auto;
+}
+
+#wcpd-admin-tab {
+}
+#wcpd-admin-tab .nav-link {
+	color: #7f54b3;
+	border-radius: 0;
+}
+#wcpd-admin-tab .nav-link.active{
+	color: #6d7989;
+	border-top: 2px solid #8e44ad;
+	background: transparent;
+}
+.wcpd_group_product .form-check {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	font-size: 16px;
+	line-height: 100%;
+	margin-right: 10px;
+}
+
+.wcpd_group_product .form-check .form-check-input {
+	width: 21px !important;
+	height: 21px !important;
+}
+.wcpd_group_product .form-check .form-check-input:checked {
+	background-color: #d0d6dd1a;
+	border-color: #0d6efd;
+}
+
+th.col-hash,
+th.col-id{
+  width: 4% !important;
+}
+.accordionItem .list-group .list-group-item span {
+	float: right;
+	background: #ddd;
+	color: #333;
+	width: 20px;
+	height: 20px;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.accordionItem span.groupClose {
+	float: right;
+	background: #ddd;
+	color: #c2b2b2;
+	width: 22px;
+	height: 22px;
+	border-radius: 12px;
+	font-size: 22px;
+	padding-bottom: 5px;
+	position: relative;
+	top: 0px;
+	right: -76%;
+	z-index: 9999;
+	display: flex;
+  	visibility: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Group Name */
+.created_groupSection {
+	margin-bottom: 35px;
+}
+#groupNameSelect, 
+.discountType, 
+.wcpd_timeZone{
+    padding: 2px 10px !important;
+	font-size: 15px !important;
+	color: #7f54b3;
+}
+
+#groupNameList{}
+.group_name_item {
+	position: relative;
+}
+.grbDelete_btn {
+	float: right;
+	background: #ddd;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 11px;
+	line-height: 100%;
+	font-weight: bold;
+	color: #333;
+	border-radius: 50%;
+	padding: 5px;
+}
+.grbDelete_btn:hover {
+  background: #cfcdcd;
+  color: #cd3e3e;
+}
+.accordionItem .list-group .list-group-item .close:hover{
+  color: #e95f15;
+  background: #ddd;
+
+}
+.accordionItem:hover span.groupClose{
+  visibility:visible;
+  color: #cd3e3e;
+}
+.variation_items{
+  display: none;
+  margin-top: 5px;
+}
+.variation-text {
+  font-size: 14px !important;
+  text-align: center;
+  margin-right: 30px;
+  background: transparent !important;
+  width: 26% !important;
+  cursor: pointer;
+}
+.group-variation {
+  margin-top: 20px;
+}
+.wcpd_custom_wrapper, 
+.wcpd_license_wrapper {
+	padding: 20px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding-top: 0;
+}
+.wcpd_license_wrapper {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.license_box_area {
+	padding: 45px 30px;
+	background: azure;
+}
+.license_box_area #wcpdLicense {
+	width: 100%;
+	border: none;
+}
+.license_input_wrapper {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background: #fff;
+	border: 1px solid #777;
+	padding: 1px 7px;
+}
+.license_input_wrapper input[type=text]:focus{
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+#wcpd_DeActiveLicense {
+	display: none;
+}
+
+/* Discount Settings Tap */
+#discountSetting {}
+.subtitle{
+	font-size: 16px;
+	padding-left: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+#discountSetting .accordion-item{}
+#discountSetting .accordion-item span.itemClose {
+	float: right;
+	background: transparent;
+	color: #c2b2b2;
+	width: 22px;
+	height: 22px;
+	border-radius: 12px;
+	font-size: 30px;
+	padding-bottom: 5px;
+	position: relative;
+	top: 0px;
+	right: -76%;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#discountSetting .accordion-button:hover {
+	z-index: 0;
+}
+.wcpd_accordionBtn{
+	position: relative;
+}
+.wcpd_accordionBtn .accordion-button {
+	color: #7f54b3;;
+}
+.accordion_itemAction {
+	position: absolute;
+	right: 10%;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+	top: 22%;
+}
+.accordion_itemAction .itemUpdate, 
+.accordion_itemAction .itemDelete {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 3px 7px;
+	border-radius: 3px;
+	width: 30px;
+	height: 30px;
+}
+.accordion_itemAction .itemUpdate .dashicons, 
+.accordion_itemAction .itemDelete .dashicons {
+	padding-left: 0.07rem;
+}
+.accordion_itemAction .itemDelete {
+ background: #ff4444;
+}
+.accordion_itemAction .itemUpdate:hover {
+	color: #fff;
+}
+
+.settingsTable tr:last-child {
+    border-bottom: 0 solid #fff;
+	padding-top: 10px;
+}
+.settingsTable .form-check {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	font-size: 17px;
+	line-height: 100%;
+	margin-right: 15px;
+	margin-bottom: 3px;
+}
+.wcpd_product_category .form-check, 
+.productCategory .form-check{
+	padding-left: 0;
+}
+.settingsTable .form-check .form-check-input:checked {
+	background-color: #d0d6dd1a;
+	border-color: #0d6efd;
+}
+.settingsTable label {
+	padding-bottom: 5px;
+}
+.btn-group input[type="radio"]:checked + label {
+    background-color: #7f54b3;
+    color: white;
+}
+.wcpd_custom_wrapper input[type="text"], 
+.wcpd_custom_wrapper input[type="number"],
+.wcpd_custom_wrapper select{
+	border-radius: 0;
+}
+
+[class^='select2'] {
+	border-radius: 0px !important;
+}
+
+#toplevel_page_wcpd-discount-update .wp-menu-image { display: none; }
+
+#wcpd_productCategory .form-check {
+	padding-left: 0;
+}
+.wcpd_product_category .form-check input[type="checkbox"], 
+.productCategory .form-check input[type="checkbox"] {
+	height: 1.3rem;
+	margin: -.25rem .25rem 0 0;
+	width: 1.3rem;
+	min-width: 1.2rem;
+	border-radius: 4px;
+}
+.wcpd_product_category .form-check input[type="checkbox"]:checked::before, 
+.productCategory .form-check input[type="checkbox"]:checked::before, 
+.wcpd_group_product .form-check input[type="checkbox"]:checked::before {
+	width: 25px;
+}
+.schedulePicker input[type="text"] {
+	margin-bottom: 15px;
+}
+.schedulePicker span {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0 5px;
+}
+
+.btn-outline-secondary {
+	border-radius: 0 !important;
+}
+
+/* DataTable */
+.wcpd_dataTables_wrapper{}
+.wcpd_dataTables_paginate{}
+
+.wcpd_group_product .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: #fff !important;
+    border: 1px solid #7f54b3!important;
+    background-color: #7f54b3!important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7f54b3), color-stop(100%, #7f54b3))!important;
+    background: -webkit-linear-gradient(top, #7f54b3 0%, #7f54b3 100%)!important;
+    background: -moz-linear-gradient(top, #7f54b3 30%, #7f54b3 100%)!important;
+    background: -ms-linear-gradient(top, #7f54b3 30%, #7f54b3 100%)!important;
+    background: -o-linear-gradient(top, #7f54b3 30%, #7f54b3 100%)!important;
+    background: linear-gradient(to bottom, #7f54b3 30%, #7f54b3 100%)!important;
+}
+.wcpd_group_product .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #fff !important;
+    border: 1px solid #533582!important;
+    background-color: #533582!important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #533582), color-stop(100%, #533582))!important;
+    background: -webkit-linear-gradient(top, #533582 0%, #533582 100%)!important;
+    background: -moz-linear-gradient(top, #533582 0%, #533582 100%)!important;
+    background: -ms-linear-gradient(top, #533582 0%, #533582 100%)!important;
+    background: -o-linear-gradient(top, #533582 0%, #533582 100%)!important;
+    background: linear-gradient(to bottom, #533582 0%, #533582 100%)!important;
+}
+
+#wcpd_dataTables_filter input {
+	padding: 2px 5px !important;
+}
+
+/* Validation Css */
+.err_msg, 
+.err_msg_price {
+	color: rgb(230, 28, 28);
+	display: none;
+	text-transform: initial;
+}
+
+/*  Custom Alert Box Msg css */
+.wcpd-modal-dialog {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* 100% of the viewport height */
+}
+.wcpd-modal-dialog .modal-content{
+	border-left: 3px solid #ffc107;
+	border-radius: 3px;
+
+}
+.wcpd-modal-dialog .modal-body {
+	margin-bottom: 30px;
+}
+.wcpd-modal-dialog .alertMsg {
+	font-size: 16px;
+}
+.wcpd-close {}
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+	padding-left: 20px !important;
+  }
+
+/* Changing Price  */
+.changeWrapper {
+	display: flex;
+}
+.changeWrapper select {
+	padding: 4px 7px;
+}
+.changeWrapper .changeType {
+	margin-right: 10px;
+}
+.priceChangesModal {
+	position: absolute;
+	right: 5%;
+	top: 33%;
+	font-size: 16px;
+}
+
+.priceChange_accordion {
+	position: relative;
+}
+.priceChange_accordion span.priceCloseBtn {
+	background: #e7e8e7;
+	color: #c2b2b2;
+	width: 22px;
+	height: 22px;
+	border-radius: 12px;
+	font-size: 22px;
+	padding-bottom: 5px;
+	position: absolute;
+	top: 31%;
+	right: 12%;
+	z-index: 9999;
+	display: flex;
+	visibility: hidden;
+	justify-content: center;
+	align-items: center;
+}
+.priceChange_accordion:hover span.priceCloseBtn{
+	visibility:visible;
+	color: #cd3e3e;
+  }
+
+/* Licensing  */
+.successMsg {
+	color: #198754;
+	display: none;
+	margin-left: 10px;
+}
+.invalidMsg {
+	color: #cd3e3e;
+	display: none;
+	margin-left: 10px;
+}
+/* Restricted CSS */
+.btn_tooltip {
+	background: #16a085;
+	color: #fff;
+	padding: 3px 5px;
+	font-size: 14px;
+	border-radius: 3px;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+/* wcpd_paid */
+.wcpd_paid {
+	position: relative;
+	color: #333; 
+	transition: background-color 0.3s; 
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5); 
+	opacity: 0; 
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #16a085;
+	cursor: none; 
+	transition: opacity 0.3s;
+}
+
+.wcpd_paid:hover .overlay {
+opacity: 1; /* Show the overlay on hover */
+}
+  
+/* wcpd_sku_paid */
+.wcpd_sku_paid {
+	position: relative;
+	color: #333; 
+	transition: background-color 0.3s; 
+}
+
+.sku_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5); 
+	opacity: 0; 
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #1bd7b1;
+	cursor: none; 
+	transition: opacity 0.3s;
+}
+
+.wcpd_sku_paid:hover .sku_overlay {
+opacity: 1; /* Show the overlay on hover */
+}
+  
+/* admin update settings page */
+#toplevel_page_discount-settings-update{
+	display: none !important;
+}
+
+/* Custom button css */
+.wcpdm_btn_one {
+	background: #7f54b3!important;
+	color: #fff !important;
+	padding: 7px 10px;
+	border-radius: 0 !important;
+	text-align: center;
+}
+.wcpdm_btn_one:hover {
+	background: #9b59b6 !important;
+	color: #fff !important;
+}
+.wcpdm_btn_two {
+	background: #575fcf !important;
+	color: #fff !important;
+	border-radius: 3px !important;
+}
+
+.wcpdm_btn_two:hover {
+	background: #40407a !important;
+	color: #fff !important;
+}
+
+/* Responsive css */
+.wcpdm_responsive_width {
+	width: 40% !important;
+}
+.select2-container {
+	width: 40% !important;
+}
+
+@media only screen and (max-width: 782px) {
+	.wcpdm_title_area {
+		height: 65px;
+	}
+	.wcpdm_title_area h1 {
+		font-size: 18px;
+		margin-left: 5px;
+	}
+	.wcpdm_responsive_width {
+		width: 100% !important;
+	}
+	.select2-container {
+		width: 90% !important;
+	}
+	.schedulePicker input[type="text"]{
+		width: 100% !important;
+	}
+	#submit_product_group {
+		float: right;
+	}
+	.saveSettings {
+		float: right;
+	}
+	#saveUpdateSettings {
+		float: right;
+	}
+  }
+
+/* Admin Dashboard */
+/* #adminmenuwrap {
+	display: none;
+}
+#adminmenuback {
+	display: none;
+} */
